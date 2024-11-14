@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "teaching-recommendation-system"
+version = "0.1.0"
+description = ""
+authors = ["kavyal2 <kavya9140@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pandas = "^2.2.3"
+scikit-fuzzy = "^0.5.0"
+openpyxl = "^3.1.5"
+scipy = "^1.14.1"
+packaging = "^24.2"
+python-multipart = "^0.0.17"
+scikit-learn = "^1.5.2"
+streamlit = "^1.40.1"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
